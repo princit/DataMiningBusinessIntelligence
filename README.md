@@ -327,3 +327,55 @@ Deviation chart
 ![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/fc981fcd-f5c0-4279-971c-8227d89d9a4a)
 Andrews curves
 ![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/b7baa009-d84b-4ed3-88a6-94c8a72f29d8)
+
+# Lecture 4
+# Classification
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/712be693-0469-4801-84e3-351d140291ce)
+Classification
+
+Target variable is categorical. Predictors could be of any data type.
+
+Algorithms
+
+Decision Trees
+
+Rule induction
+
+kNN
+
+Naive Bayesian
+
+Neural Networks
+
+Support Vector Machines
+
+Ensemble Meta Models
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/563a1fcb-c20d-4c90-8ec9-8917d53ca710)
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/e885eaf5-4a8f-488e-ab4b-d09c537c21e3)
+# Measure of impurity
+
+Every split ties to make child node more pure.
+
+Gini impurity
+
+Information Gain (Entropy)
+
+Misclassification Error
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/98b7adbd-d4d0-4cbb-80d0-0311468bb8e9)
+Tree to Rules
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/e7bb0a1d-efd2-46d6-bb05-8b4c403d9ba2)
+# Rules
+
+R = { r1 ∩ r2 ∩ r3 ∩ .. rk }
+
+Where k is the number of disjuncts in a rule set. Individual
+disjuncts can be represented as
+
+ri = (antecedent or condition) then (consequent)
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/57ee0759-6133-4c10-89e1-c92a0ef8ead0)
+# Sequential covering
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/cfc23d65-d3ea-47e4-b6f0-abbc9b4362a2)
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/0cdc7301-2f12-434a-9001-a2adca2ee744)
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/5f77b96d-c397-40ef-a5ae-5f986802b6c2)
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/f64d19c3-1118-4a9a-99f7-83de5152ca18)
+
