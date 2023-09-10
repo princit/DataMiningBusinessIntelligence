@@ -22,18 +22,13 @@ print(lemma)  # Output: run
 
 <code>  
 from nltk.tokenize import word_tokenize, sent_tokenize
-
 text = "NLTK is a powerful library for natural language processing tasks."
 tokens = word_tokenize(text)
 print(tokens)  # Output: ['NLTK', 'is', 'a', 'powerful', 'library', 'for', 'natural', 'language', 'processing', 'tasks', '.']
-
 sentences = sent_tokenize(text)
 print(sentences)  # Output: ['NLTK is a powerful library for natural language processing tasks.']
-
 from nltk.stem import PorterStemmer
-
 stemmer = PorterStemmer()
-
 word = "running"
 stem = stemmer.stem(word)
 print(stem)  # Output: run
