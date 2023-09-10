@@ -160,6 +160,7 @@ CREATE TABLE courses(
    instructor CHAR (25) ,    
    PRIMARY KEY (course_id)
 );
+
 CREATE TABLE enrollments (
    enrollment_id INT          NOT NULL,
    student_id INT         NOT NULL,
@@ -167,6 +168,7 @@ CREATE TABLE enrollments (
    PRIMARY KEY (enrollment_id),
  FOREIGN KEY (  course_id) REFERENCES courses(course_id)
 );
+
 ALTER TABLE enrollments ADD semester varchar(255);
 
 ALTER TABLE enrollments ADD CONSTRAINT fk_student_enrollment FOREIGN KEY (student_id) REFERENCES students (student_id);
