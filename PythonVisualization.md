@@ -321,3 +321,116 @@ z_scores = (df['C'] - df['C'].mean()) / df['C'].std()
 print("Z-scores of column C:")
 print(z_scores)
 </code>
+
+
+
+
+# Create a sample dataframe
+<code>
+data = pd.DataFrame({'Age': [22, 35, 45, 18, 50, 60, 32, 28, 40, 55]})
+print("Original Data:")
+print(data)
+</code>
+
+# Perform equal-width binning
+<code>
+num_bins = 3
+bin_labels = ['Low', 'Medium', 'High']
+data['Age_Binned'] = pd.cut(data['Age'], num_bins, labels=bin_labels)
+
+print("\nBinned Data:")
+print(data)
+</code>
+
+Original Data:
+   Age
+0   22
+1   35
+2   45
+3   18
+4   50
+5   60
+6   32
+7   28
+8   40
+9   55
+
+Binned Data:
+   Age Age_Binned
+0   22        Low
+1   35        Low
+2   45     Medium
+3   18        Low
+4   50     Medium
+5   60       High
+6   32        Low
+7   28        Low
+8   40     Medium
+9   55       High
+
+######
+
+# Create a sample dataframe
+<code>
+data = pd.DataFrame({'Scores': [82, 75, 90, 65, 88, 92, 78, 70, 80, 85]})
+print("Original Data:")
+print(data)
+</code>
+# Perform histogram analysis and discretize
+<code>
+hist, bin_edges = np.histogram(data['Scores'], bins=3)
+bin_labels = ['Low', 'Medium', 'High']
+data['Scores_Binned'] = pd.cut(data['Scores'], bins=bin_edges, labels=bin_labels, include_lowest=True)
+print("\nBinned Data:")
+print(data)
+</code>
+
+Original Data:
+   Scores
+0      82
+1      75
+2      90
+3      65
+4      88
+5      92
+6      78
+7      70
+8      80
+9      85
+
+Binned Data:
+   Scores Scores_Binned
+0      82        Medium
+1      75           Low
+2      90          High
+3      65           Low
+4      88        Medium
+5      92          High
+6      78        Medium
+7      70           Low
+8      80        Medium
+9      85        Medium
+
+
+# Read the CSV file
+<code>
+data = pd.read_csv('data.csv')
+</code>
+
+# Perform equal-width binning
+<code>
+num_bins = 3
+bin_labels = ['Low', 'Medium', 'High']
+data['Salary_Binned'] = pd.cut(data['Salary'], num_bins, labels=bin_labels)
+</code>
+
+# Perform histogram analysis and discretize
+<code>
+hist, bin_edges = np.histogram(data['Salary'], bins=3)
+data[['Salary_Histogram_Binned',abc] [= pd.cut(data[['Salary',a]], bins=bin_edges, labels=bin_labels, include_lowest=True)
+</code>
+
+# Print the updated dataframe
+<code>
+print(data)
+</code>
