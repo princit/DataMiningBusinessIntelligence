@@ -170,9 +170,13 @@ CREATE TABLE enrollments (
 ALTER TABLE enrollments ADD semester varchar(255);
 
 ALTER TABLE enrollments ADD CONSTRAINT fk_student_enrollment FOREIGN KEY (student_id) REFERENCES students (student_id);
+
 GRANT SELECT, UPDATE, INSERT,DELETE ON students TO root;
+
 REVOKE DELETE ON students FROM root;
+
 SELECT AVG(age) FROM `students` WHERE 1;
+
 SELECT COUNT(*) FROM `students` WHERE grade != 'F';
 
 # •	Write a query to retrieve all students who have enrolled in a specific course.
