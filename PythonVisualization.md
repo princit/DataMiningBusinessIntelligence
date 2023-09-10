@@ -1,1 +1,223 @@
+<code>
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+</code>
 
+#Load your data into a Pandas DataFrame:
+<code>
+df = pd.read_csv('your_data.csv')
+</code>
+#Examine the structure and summary statistics of the DataFrame:
+
+
+# Display the first few rows of the DataFrame
+<code>
+print(df.head())
+</code>
+Get an overview of the DataFrame's structure and data types
+<code>
+print(df.info())
+</code>code>
+# Calculate summary statistics for numerical columns
+<code>
+<code>
+print(df.describe())
+</code>
+
+Handle missing values:
+
+
+# Check for missing values in each column
+<code>
+print(df.isnull().sum())
+</code>
+
+# Handle missing values based on your data and analysis needs
+
+# For example, you can drop rows with missing values using df.dropna() or fill missing values using df.fillna()
+
+Perform exploratory data analysis:
+
+<table>
+    <thead>
+      <tr>
+        <th> Histgram </th>
+        <th> Pairplot </th>
+        <th> Heatmap</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+          <td><code>
+            df.hist()                    
+            plt.show()</code>          
+          </td>
+          <td><code>
+            sns.pairplot(df)
+            plt.show()</code>              
+          </td>
+          <td><code>
+            corr_matrix = df.corr()    
+            sns.heatmap(corr_matrix, annot=True)              
+            plt.show()</code>           
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+
+<table>
+    <thead>
+      <tr>        
+        <th># Get the unique values in the column </th>
+        <th># Count the occurrences of each category in the column </th>
+        <th># Create a bar plot to visualize the distribution of categories</th>
+        <th># Group the DataFrame by the column and perform an aggregation</th>
+        <th># Perform statistical analysis for a numerical column based on categories</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+              <code>
+              unique_values = df['column_name'].unique()
+              print(unique_values)
+              </code>
+            </td>
+            <td>
+             <code> category_counts = df['column_name'].value_counts()
+              print(category_counts)</code>
+            </td>                      
+          <td><code>
+              category_counts.plot(kind='bar')
+              plt.xlabel('Categories')
+              plt.ylabel('Count')
+              plt.title('Category Distribution')
+              plt.show()</code>
+            </td>                 
+          <td>
+            <code>  grouped_data = df.groupby('column_name').agg({'numerical_column': 'mean'})
+              print(grouped_data</code>
+            </td>
+            <td>
+             <code> for category in unique_values:
+              category_data = df[df['column_name'] == category]['numerical_column']
+              print(f"Category: {category}")
+              print(f"Mean: {category_data.mean()}")
+              print(f"Standard Deviation: {category_data.std()}")
+              print(f"Minimum: {category_data.min()}")
+              print(f"Maximum: {category_data.max()}")
+              print() </code>
+            </td>
+        </tr>
+    </tbody>
+  </table>
+
+
+This will provide a visual representation of the frequency of each category.
+
+Group and aggregate data based on categories:
+
+<code>
+grouped_data = df.groupby('column_name').agg({'numerical_column': 'mean'})
+print(grouped_data)
+</code>
+
+This will calculate the mean (or any other desired aggregation) of a numerical column for each category.
+
+Perform statistical analysis by category:
+
+# Perform statistical analysis for a numerical column based on categories
+# Write a Python program to calculate the sum of all even numbers from 1 to 10.
+<code>
+sum_of_evens = 0
+for num in range(1, 11):
+    if num % 2 == 0:
+        sum_of_evens += num
+ sum_of_evens = sum_of_evens+num
+print("Sum of even numbers from 1 to 10:", sum_of_evens)
+</code>
+
+
+# Write a Python program to load data from an Excel/CSV file and print the dataset. Also, write code to print only the records where the value in the "Status" column is "Completed".
+<code>
+
+import pandas as pd
+</code>
+
+# Assuming the dataset is in a CSV file named 'data.csv'
+<code>
+data = pd.read_csv('data.csv')
+</code>
+
+# Print the entire dataset
+<code>
+print("Full dataset:")
+print(data)
+</code>
+# Filter records where the value in the "Status" column is "Completed"
+<code>
+completed_data = data[data['Status'] == 'Completed']
+</code>
+
+# Print the filtered dataset
+<code>
+print("\nFiltered dataset where status is 'Completed':")
+print(completed_data)
+</code>
+
+# Use the Matplotlib library in Python to create a bar chart and a scatter chart for a given dataset(any). Provide an explanation of the charts and label the axes appropriately.
+<code>
+import matplotlib.pyplot as plt
+</code>
+
+# Sample dataset
+<code>
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+</code>
+
+<table>
+    <thead>
+      <tr>        
+        <th># Bar chart</th>
+        <th> # Scatter chart</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td> 
+              <code>
+              plt.figure()              
+              plt.bar(x, y)
+              plt.xlabel('X-axis')
+              plt.ylabel('Y-axis')
+              plt.title('Bar Chart')
+              plt.show()
+              </code>
+            </td>
+            <td>
+              <code>
+              plt.figure()
+              plt.scatter(x, y)
+              plt.xlabel('X-axis')
+              plt.ylabel('Y-axis')
+              plt.title('Scatter Chart')
+              plt.show()
+              </code>
+            </td>                      
+        </tr>
+    </tbody>
+  </table>
+
+
+
+
+# Write an SQL query to select all the records from the "students" table where the "age" column is greater than 19 and less 25 and "cgpa" is greater than 3.5.
+<code>
+
+SELECT *
+FROM students
+WHERE age > 19 AND age < 25 AND cgpa > 3.5;
+</code>
