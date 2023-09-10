@@ -443,3 +443,32 @@ Reduces the model generalization error
 ![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/5c2bddbd-fd97-470f-bdff-8b9211946af6)
 
 ![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/088b9dbf-5c49-45f6-8d2d-02faea9c5d60)
+
+# Text Mining
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/aab238a6-8a61-4e2a-85c8-317dab40824f)
+document, document vector
+
+token, tokenization
+
+filtering: a, and, this
+
+stopwords,
+
+substitution
+
+stemming
+
+n-grams
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/50f34c9c-8b35-4c73-9744-f60d954e2fc9)
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/0745485c-3db7-4f1c-95f2-b34b0adca3fa)
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/503588bd-a48f-427c-ad9e-3d7e8e6c6634)
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/500e88fc-d509-4ac6-a784-ac813889dea7)
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/16e72514-a70e-408e-8db4-35eab51f21ae)
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/5ba3bf4a-da54-4335-8337-0dd70670fef8)
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/0b18e7f0-17a6-44e5-a76c-c1eef19e070c)
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/aebe7569-3a32-46b6-afd4-f582e3ccbd6d)
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/45f78cd8-3e7d-45ef-948b-3bd8b455e89d)
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/340d595b-db1a-41c2-8703-889c2847560a)
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/ace9bf25-0060-4a2a-890a-8da4b1adc27f)
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/ce7dc5a4-8ad2-469c-8990-5b4ca0fd0546)
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/c2c65699-49e8-4ff0-a1c1-e306c3060c78)
