@@ -379,3 +379,67 @@ ri = (antecedent or condition) then (consequent)
 ![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/5f77b96d-c397-40ef-a5ae-5f986802b6c2)
 ![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/f64d19c3-1118-4a9a-99f7-83de5152ca18)
 
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/f77ccf17-8aa8-47ff-b22b-b1be46b48067)
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/8bb49e75-af08-46d4-a610-debe803f9d4e)
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/07e51a3c-c5e8-4ef5-9c6e-28aefb3d1876)
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/ab2e41b5-2f57-4601-8c96-5ed8015f02f2)
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/f07ab9f7-91da-4750-98df-594226c40d8a)
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/e36dcb97-c2af-4c91-b73d-6fbe72e7a993)
+Issues
+
+Incomplete training set -> Use laplace correction
+
+Continuous numeric attributes -> Use Probability density function
+
+Attributes independence -> remove correlated attributes
+# NEURAL NETWORKS
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/31c53c85-fbb5-4769-a507-aadc75714b56)
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/0eda1600-0860-4bef-87f6-9ad59b670e7c)
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/422e4f7d-de55-4a9f-a88a-281086f7e2e5)
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/90b9ab5a-2065-4625-acba-513c05b2630b)
+# SUPPORT VECTOR MACHINES
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/be7d198a-3cfa-4505-95ca-f630f88a8a92)
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/fe23c5a8-a4a2-409d-8f22-79878511c1d6)
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/b07b4b05-17f9-46b8-bf8d-2253974d9fd4)
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/0c908052-9a9f-4731-8350-85a5d105315d)
+# Ensemble model
+
+Wisdom of the Crowd
+
+Meta learners = sum of several base models
+
+Reduces the model generalization error
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/4f1f5b77-66fd-4b72-aa0e-5f6c25ff245f)
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/e1e538a6-8cb9-4c93-96cd-8a31f1e8ee76)
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/6c9416b8-5578-4d79-9100-c46870caed2d)
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/c71ce00c-f575-4108-b654-c995b2dc936a)
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/3721f8a2-1c31-4353-b461-6bc67f99ea49)
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/b747d07c-7076-408f-80b7-9aecfdf7a698)
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/46116256-d620-4e13-9d6d-be735cda679b)
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/db19823b-27cf-4445-a3fb-27fdd88ff86b)
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/5c2bddbd-fd97-470f-bdff-8b9211946af6)
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/088b9dbf-5c49-45f6-8d2d-02faea9c5d60)
