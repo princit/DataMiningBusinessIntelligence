@@ -221,3 +221,74 @@ SELECT *
 FROM students
 WHERE age > 19 AND age < 25 AND cgpa > 3.5;
 </code>
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------import numpy as np
+
+# Create an array of random numbers for demonstration
+data = np.random.randint(0, 100, 10)
+
+# Define the code snippet you want to measure
+code_snippet = """
+# Aggregation - Calculate the sum, minimum, and maximum values
+sum_value = np.sum(data)
+min_value = np.min(data)
+max_value = np.max(data)
+
+# Standard Deviation (Variance) - Calculate the standard deviation and variance
+std_deviation = np.std(data)
+variance = np.var(data)
+
+# Z-score - Calculate the z-scores for each element in the array
+z_scores = (data - np.mean(data)) / np.std(data)
+
+# Discretization - Convert the data into discrete bins
+num_bins = 5  # Number of bins
+bin_edges = np.linspace(np.min(data), np.max(data), num_bins + 1)  # Compute bin edges
+discretized_data = np.digitize(data, bin_edges)
+"""
+
+
+
+
+# Execute and measure the execution time of the code snippet
+execution_time = %timeit -r 10 -n 100 -o -q exec(code_snippet)
+
+# Print the average execution time
+print("Average Execution Time:", execution_time.best)
+
+
+
+
+
+import pandas as pd
+import numpy as np
+
+# Create a sample DataFrame
+data = {
+    'A': np.random.randint(0, 100, 10),
+    'B': np.random.randint(0, 100, 10),
+    'C': np.random.randint(0, 100, 10)
+}
+df = pd.DataFrame(data)
+print("DataFrame:")
+print(df)
+
+# Aggregation - Calculate the sum, minimum, and maximum values of column 'A'
+sum_value = df['A'].sum()
+min_value = df['A'].min()
+max_value = df['A'].max()
+print("Sum of column A:", sum_value)
+print("Minimum of column A:", min_value)
+print("Maximum of column A:", max_value)
+
+# Standard Deviation (Variance) - Calculate the standard deviation and variance of column 'B'
+std_deviation = df['B'].std()
+variance = df['B'].var()
+print("Standard Deviation of column B:", std_deviation)
+print("Variance of column B:", variance)
+
+# Z-score - Calculate the z-scores for each element in column 'C'
+z_scores = (df['C'] - df['C'].mean()) / df['C'].std()
+print("Z-scores of column C:")
+print(z_scores)
