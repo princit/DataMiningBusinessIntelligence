@@ -42,9 +42,9 @@ Perform exploratory data analysis:
 <table>
     <thead>
       <tr>
-        <th> Histgram </th>
-        <th> Pairplot </th>
-        <th> Heatmap</th>
+        <th><code> Histgram </code>code></th>
+        <th> <code>Pairplot</code> </th>
+        <th><code> Heatmap</code></th>
       </tr>
     </thead>
     <tbody>
@@ -70,11 +70,11 @@ Perform exploratory data analysis:
 <table>
     <thead>
       <tr>        
-        <th># Get the unique values in the column </th>
-        <th># Count the occurrences of each category in the column </th>
-        <th># Create a bar plot to visualize the distribution of categories</th>
-        <th># Group the DataFrame by the column and perform an aggregation</th>
-        <th># Perform statistical analysis for a numerical column based on categories</th>
+        <th><code># Get the unique values in the column </code></th>
+        <th><code># Count the occurrences of each category in the column</code> </th>
+        <th><code># Create a bar plot to visualize the distribution of categories</code></th>
+        <th><code># Group the DataFrame by the column and perform an aggregation</code></th>
+        <th><code># Perform statistical analysis for a numerical column based on categories</code></th>
       </tr>
     </thead>
     <tbody>
@@ -181,8 +181,8 @@ y = [2, 4, 6, 8, 10]
 <table>
     <thead>
       <tr>        
-        <th>Bar chart</th>
-        <th>Scatter chart</th>
+        <th></code>Bar chart</code></th>
+        <th></code>Scatter chart</code></th>
       </tr>
     </thead>
     <tbody>
