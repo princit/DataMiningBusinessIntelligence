@@ -284,3 +284,46 @@ Assimilation
 # 5. Knowledge
 
 Posterior knowledge
+
+#  3. Data Exploration
+Objectives of Data Exploration
+
+Understanding data
+
+Data preparation
+
+Data mining tasks
+
+Interpreting data mining results
+
+# Data Sets
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/7581c0fa-97c1-4c06-b570-b8ae5c17f571)
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/2e455fdb-0f10-41a8-af45-9a298eaac281)
+# Descriptive Statistics - Multivariate
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/33857e3f-dd2a-4bc7-b4e9-3a83f12f9d63)
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/ee619aaf-eaa5-4bc7-a297-f106c0df1aac)
+# Data Visualization
+Histogram
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/c825f263-0c45-4cfb-9291-9895791ad93b)
+Class stratified Histogram
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/f66fa8d8-c3e6-4af2-acd3-9a2c2d99ec33)
+Quantile plot
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/cc42c3a2-3b66-44f7-8b81-2884bf08af08)
+Distribution plot
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/81479fcd-c529-4033-abca-f49b1aa53597)
+Scatter plot
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/00394d3a-cbd1-4a7b-b3aa-64258b050393)
+Scatter mutiple
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/88216526-8da6-44c9-927c-83c62b113b57)
+Multiple Scatter matrix
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/199ce88e-ee01-4fc2-b71b-cb6f62c43dc7)
+Bubble plot
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/fcc04b23-4ea7-4c84-a5ea-ccd5aefe307f)
+Density chart
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/4258093a-5f04-4428-a2de-23b88c1bc405)
+Parallel chart
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/c3f25935-f95e-4876-b453-659ea5c8775c)
+Deviation chart
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/fc981fcd-f5c0-4279-971c-8227d89d9a4a)
+Andrews curves
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/b7baa009-d84b-4ed3-88a6-94c8a72f29d8)
