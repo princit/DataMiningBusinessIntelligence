@@ -223,48 +223,70 @@ WHERE age > 19 AND age < 25 AND cgpa > 3.5;
 </code>
 
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------import numpy as np
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<code>
+import numpy as np
+</code>
 
 # Create an array of random numbers for demonstration
+<code>
 data = np.random.randint(0, 100, 10)
+</code>
 
 # Define the code snippet you want to measure
+<code>
 code_snippet = """
+</code>
+
 # Aggregation - Calculate the sum, minimum, and maximum values
+<code>
 sum_value = np.sum(data)
 min_value = np.min(data)
 max_value = np.max(data)
+</code>
 
 # Standard Deviation (Variance) - Calculate the standard deviation and variance
+<code>
 std_deviation = np.std(data)
 variance = np.var(data)
+</code>
 
 # Z-score - Calculate the z-scores for each element in the array
+<code>
 z_scores = (data - np.mean(data)) / np.std(data)
+</code>
 
 # Discretization - Convert the data into discrete bins
+<code>
+
 num_bins = 5  # Number of bins
 bin_edges = np.linspace(np.min(data), np.max(data), num_bins + 1)  # Compute bin edges
 discretized_data = np.digitize(data, bin_edges)
 """
+</code>
 
 
 
 
 # Execute and measure the execution time of the code snippet
+<code>
 execution_time = %timeit -r 10 -n 100 -o -q exec(code_snippet)
+</code>
 
 # Print the average execution time
+<code>
 print("Average Execution Time:", execution_time.best)
+</code>
 
 
 
-
-
+<code>
 import pandas as pd
 import numpy as np
+</code>
 
 # Create a sample DataFrame
+<code>
 data = {
     'A': np.random.randint(0, 100, 10),
     'B': np.random.randint(0, 100, 10),
@@ -273,22 +295,29 @@ data = {
 df = pd.DataFrame(data)
 print("DataFrame:")
 print(df)
+</code>code>
 
 # Aggregation - Calculate the sum, minimum, and maximum values of column 'A'
+<code>
 sum_value = df['A'].sum()
 min_value = df['A'].min()
 max_value = df['A'].max()
 print("Sum of column A:", sum_value)
 print("Minimum of column A:", min_value)
 print("Maximum of column A:", max_value)
+</code>
 
 # Standard Deviation (Variance) - Calculate the standard deviation and variance of column 'B'
+<code>
 std_deviation = df['B'].std()
 variance = df['B'].var()
 print("Standard Deviation of column B:", std_deviation)
 print("Variance of column B:", variance)
+</code>
 
 # Z-score - Calculate the z-scores for each element in column 'C'
+<code>
 z_scores = (df['C'] - df['C'].mean()) / df['C'].std()
 print("Z-scores of column C:")
 print(z_scores)
+</code>
