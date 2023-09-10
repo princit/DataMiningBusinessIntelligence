@@ -177,16 +177,26 @@ sns.distplot(preimputation)
             <td>import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.pyplot as pyplot
-bins=15
+
+ bins=15
 pyplot.rcParams[&quot;figure.figsize&quot;] = (10,10)
+
 pyplot.hist(train_data[&quot;Fare&quot;], bins, alpha=1, label=&#39;train_data; orange Fare&#39;,
+
 color=&#39;orange&#39;, weights = np.ones_like(train_data[&quot;Fare&quot;])/float(len(train_data[&quot;Fare&quot;])))
+
 pyplot.hist(train_data[&quot;Age&quot;], bins, alpha=1, label=&#39;train_data; Age&#39;,
+
 color=&#39;green&#39;, weights = np.ones_like(train_data[&quot;Age&quot;])/float(len(train_data[&quot;Age&quot;])))
+
 pyplot.title(&#39;Fare/Age&#39;)
+
 pyplot.xlabel(&#39;Age&#39;)
+
 pyplot.ylabel(&#39;Percent&#39;)
+
 pyplot.legend(loc=&#39;upper right&#39;)
+
 pyplot.show()
             </td>
         </tr>
