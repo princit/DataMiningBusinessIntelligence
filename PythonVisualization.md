@@ -181,8 +181,8 @@ y = [2, 4, 6, 8, 10]
 <table>
     <thead>
       <tr>        
-        <th># Bar chart</th>
-        <th> # Scatter chart</th>
+        <th>Bar chart</th>
+        <th>Scatter chart</th>
       </tr>
     </thead>
     <tbody>
