@@ -226,3 +226,61 @@ history.</td>
 
 
 # Lecture 2
+## 2. Data Mining Process
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/6bb6fb87-064c-4c1f-b701-2241b733b2af)
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/9d5b1202-7396-4ba9-8631-959ff0aa5f95)
+# 1.Prior Knowledge
+
+Gaining information on:
+
+Objective of the problem
+
+Subject area of the problem
+
+Data
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/0820d14c-a42e-4278-806e-0ae8ebc6f792)
+
+# 2. Data Preparation
+
+Data Exploration
+
+Data quality
+
+Handling missing values
+
+Data type conversion
+
+Transformation
+
+Outliers
+
+Feature selection
+
+Sampling
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/0f938901-3219-4d89-9295-2cac6ddb85a4)
+# 3. Modeling
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/0a7131fe-b19b-4843-8c98-fc7322acbec7)
+Spliting training and test data sets
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/c399bae9-7631-4bfb-b19a-92d5f3aec661)
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/2a11fe47-70f9-4a9f-a283-96dd85140df1)
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/db57398f-c3c0-432c-8cf9-e5a8ca504d5c)
+
+Evaluation of test dataset
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/d8e92305-8fbd-4909-a55e-8ede27de03cf)
+# 3. Application
+
+Product readiness
+
+Technical integration
+
+Model response time
+
+Remodeling
+
+Assimilation
+
+# 5. Knowledge
+
+Posterior knowledge
