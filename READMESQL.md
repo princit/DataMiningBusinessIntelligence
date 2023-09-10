@@ -65,9 +65,8 @@ where ID IN (select ID from Employee)
         </tr>
     </tbody>
   </table>
+ 
   # Operation
-
-
   <table>
     <thead>
       <tr>
@@ -89,6 +88,49 @@ where ID IN (select ID from Employee)
             <td>select * from first intersection select * from second</td>
             <td>select * from first minus select * from second</td>
             <td>select * from first except select * from second</td>
+        </tr>
+    </tbody>
+  </table>
+
+
+mysql -u yourdbuser -p Yourdbbase
+
+  # Cartisean Product
+  <table>
+    <thead>
+      <tr>
+        <th>Where</th>
+        <th>Join</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>select * from instructor,teacher where instructor.ID = teacher.ID</td>
+            <td>select * from Epmployee inner join project on project.Emp_ID = Employee.Emp_ID </td>
+        </tr>
+    </tbody>
+  </table>
+
+select name from instructor where salary between 90 and 100
+
+  # Tuple Comparision
+
+  select name,course_id from intructor,teacher where (instructor.ID,dept_name) = (Teacher.ID,"Bilogy")
+
+  insert into table1 select * from table1
+
+  # Updates with Scalar Subqueries
+  <table>
+    <thead>
+      <tr>
+        <th>Where</th>
+        <th>Join</th>
+      </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>update instructor set salary = case when salary <= 100 then salary*1.05 else salary*103 end</td>
+            <td>update student s set tot_cred = (select sum(credits) from takes,course where take.cource_id=cource.course _id and s.ID = take.ID and take.grade<'F' and takes.grade is not null) </td>
         </tr>
     </tbody>
   </table>
