@@ -134,3 +134,54 @@ select name from instructor where salary between 90 and 100
         </tr>
     </tbody>
   </table>
+
+  # Assignment
+  CREATE TABLE students(
+   student_id   INT              NOT NULL,
+   name VARCHAR (20)     NOT NULL,
+   age  INT              NOT NULL,
+   grade  CHAR (25) ,    
+   PRIMARY KEY (student_id)
+);
+
+UPDATE students
+SET age = 777
+WHERE student_id = 2;
+
+UPDATE students SET grade = 'APlus' WHERE age > 85;
+
+DELETE FROM `students` WHERE student_id = 3
+
+DELETE FROM `students` WHERE grade <'C';
+
+CREATE TABLE courses(
+   course_id INT              NOT NULL,
+   course_name VARCHAR (20)     NOT NULL,
+   instructor CHAR (25) ,    
+   PRIMARY KEY (course_id)
+);
+CREATE TABLE enrollments (
+   enrollment_id INT          NOT NULL,
+   student_id INT         NOT NULL,
+   course_id INT      NOT NULL,
+   PRIMARY KEY (enrollment_id),
+ FOREIGN KEY (  course_id) REFERENCES courses(course_id)
+);
+ALTER TABLE enrollments ADD semester varchar(255);
+
+ALTER TABLE enrollments ADD CONSTRAINT fk_student_enrollment FOREIGN KEY (student_id) REFERENCES students (student_id);
+GRANT SELECT, UPDATE, INSERT,DELETE ON students TO root;
+REVOKE DELETE ON students FROM root;
+SELECT AVG(age) FROM `students` WHERE 1;
+SELECT COUNT(*) FROM `students` WHERE grade != 'F';
+
+# •	Write a query to retrieve all students who have enrolled in a specific course.
+SELECT students.student_id, students.name FROM students JOIN enrollments ON students.student_id = enrollments.student_id JOIN courses ON enrollments.course_id = courses.course_id;
+
+Perform joins:
+# •	Write a query to retrieve a list of students along with the courses they are enrolled in.
+SELECT students.student_id, students.name, courses.course_id, courses.course_name FROM students JOIN enrollments ON students.student_id = enrollments.student_id JOIN courses ON enrollments.course_id = courses.course_id;
+
+# •	Write a query to retrieve a list of courses along with the names of the students enrolled in each course.
+SELECT courses.course_id, courses.course_name, students.student_id, students.name FROM courses JOIN enrollments ON courses.course_id = enrollments.course_id JOIN students ON enrollments.student_id = students.student_id;
+
