@@ -59,6 +59,7 @@ IF(   OR(   CALCULATE(SUM('ResellerSales_USD'[SalesAmount_USD]), 'ProductSubcate
 # Run Python Script 
 ![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/fd6ee9dc-0f33-4a91-b2d1-724ac08af73a)
 # Create a Python visual in Power BI Desktop
+
 <code>
 import matplotlib.pyplot as plt 
 dataset.plot(kind='scatter', x='Age', y='Weight', color='red')
@@ -70,6 +71,7 @@ import matplotlib.pyplot as plt
 dataset.plot(kind='scatter', x='Age', y='Weight', color='red')
 plt.show()
 </code>
+
 ![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/2a9af6a2-20fa-4a08-a2b9-d959da2928ea)
 
 <code>
@@ -79,6 +81,7 @@ dataset.plot(kind='line',x='Fname',y='Children',ax=ax)
 dataset.plot(kind='line',x='Fname',y='Pets', color='red', ax=ax) 
 plt.show()
 </code>
+
 ![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/62fa85fd-fcbd-4f2f-80ba-8e2e1eb8307d)
 
 <code>
@@ -86,4 +89,6 @@ import matplotlib.pyplot as plt
 dataset.plot(kind='bar',x='Fname',y='Age') 
 plt.show()
 </code>
+
 ![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/996bd8d1-44ba-431e-b15a-5b88c08f46e9)
+
