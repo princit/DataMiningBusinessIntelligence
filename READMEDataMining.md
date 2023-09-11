@@ -472,3 +472,7 @@ n-grams
 ![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/ace9bf25-0060-4a2a-890a-8da4b1adc27f)
 ![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/ce7dc5a4-8ad2-469c-8990-5b4ca0fd0546)
 ![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/c2c65699-49e8-4ff0-a1c1-e306c3060c78)
+
+
+![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/c772941a-87ca-4cf9-a0a3-00e7a7110a0e)
+
