@@ -191,3 +191,43 @@ SELECT students.student_id, students.name, courses.course_id, courses.course_nam
 # •	Write a query to retrieve a list of courses along with the names of the students enrolled in each course.
 SELECT courses.course_id, courses.course_name, students.student_id, students.name FROM courses JOIN enrollments ON courses.course_id = enrollments.course_id JOIN students ON enrollments.student_id = students.student_id;
 
+# Normailization
+
+# 1NF (First Normal Form) Rules
+Each table cell should contain a single value.
+Each record needs to be unique.
+
+# 2. Second Normal Form (2NF)
+For a table to be in the Second Normal Form,
+
+It should be in the First Normal form.
+
+And, it should not have Partial Dependency.(primary key depandant on other cloumn)
+
+# 3. Third Normal Form (3NF)
+A table is said to be in the Third Normal Form when,
+
+It satisfies the First Normal Form and the Second Normal form.
+
+And, it doesn't have Transitive Dependency.(Any column depandant on other cloumn)
+
+# For a table to be in BCNF, the following conditions must be satisfied:
+
+R must be in the 3rd Normal Form
+
+and, for each functional dependency ( X → Y ), X should be a Super Key.
+# 5. Fourth Normal Form (4NF)
+A table is said to be in the Fourth Normal Form when,
+
+It is in the Boyce-Codd Normal Form.
+
+And, it doesn't have Multi-Valued Dependency.
+
+# 5. Fifth Normal Form (5NF)
+The fifth normal form is also called the PJNF - Project-Join Normal Form
+
+It is the most advanced level of Database Normalization.
+
+Using Fifth Normal Form you can fix Join dependency and reduce data redundancy.
+
+It also helps in fixing Update anomalies in DBMS design.
