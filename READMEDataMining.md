@@ -238,6 +238,7 @@ Objective of the problem
 Subject area of the problem
 
 Data
+
 ![image](https://github.com/princit/DataMiningBusinessIntelligence/assets/29123911/0820d14c-a42e-4278-806e-0ae8ebc6f792)
 
 # 2. Data Preparation
